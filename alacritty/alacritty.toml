@@ -1,3 +1,8 @@
+general.import = [
+    # This will seamlessly load on macOS and safely skip on Linux
+    "~/.config/alacritty/macos.toml"
+]
+
 [env]
 TERM = "xterm-256color"
 

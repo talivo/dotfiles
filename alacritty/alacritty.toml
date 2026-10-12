@@ -1,7 +1,5 @@
-general.import = [
-    # This will seamlessly load on macOS and safely skip on Linux
-    "~/.config/alacritty/macos.toml"
-]
+[general]
+import = ["~/.config/alacritty/themes/noctalia.toml"]
 
 [env]
 TERM = "xterm-256color"
@@ -12,7 +10,7 @@ padding.y = 10
 
 decorations = "Buttonless"
 
-opacity = 0.5
+opacity = 0.7
 blur = true
 
 option_as_alt = "Both"

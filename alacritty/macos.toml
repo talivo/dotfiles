@@ -1,0 +1,6 @@
+[[keyboard.bindings]]
+-- require("nvim.remap")
+key = "L"
+mods = "Command"
+chars = "\u000c"
+

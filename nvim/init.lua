@@ -328,6 +328,8 @@ do
   -- and then call its `setup()` function to start it with default settings.
   vim.pack.add { gh 'NMAC427/guess-indent.nvim' }
   require('guess-indent').setup {}
+  -- theprimeagen vim-be-good
+  vim.pack.add { gh 'ThePrimeagen/vim-be-good' }
 
   -- Here is a more advanced configuration example that passes options to `gitsigns.nvim`
   --
@@ -490,6 +492,8 @@ do
   -- This opens a window that shows you all of the keymaps for the current
   -- Telescope picker. This is really useful to discover what Telescope can
   -- do as well as how to actually do it!
+
+
 
   ---@type (string | vim.pack.Spec)[]
   local telescope_plugins = {

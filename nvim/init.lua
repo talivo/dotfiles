@@ -1,4 +1,4 @@
 require("remap")
+require("set")
 require("config.lazy")
-vim.opt.clipboard = "unnamedplus"
-vim.wo.relativenumber = true
+
